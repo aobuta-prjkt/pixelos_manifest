@@ -76,6 +76,9 @@
   <!-- Tools -->
   <project path="lineage/scripts" name="PixelOS-AOSP/scripts" groups="tools" remote="github" revision="main" />
 
+  <!-- LMOFreeform -->
+  <project path="packages/apps/LMOFreeform" name="aobuta-prjkt/android_packages_apps_LMOFreeform" remote="github" />
+  
   <!-- google/pixel apps -->
   <project path="vendor/pixel/extract-utils" name="PixelOS-AOSP/android_vendor_pixel_extract-utils" remote="gitlab" revision="seventeen" >
     <linkfile src="extract-all.sh" dest="vendor/pixel/extract-all.sh" />
