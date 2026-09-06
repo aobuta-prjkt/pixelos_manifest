@@ -37,5 +37,10 @@ Start the compilation:
 m pixelos
 ```
 
+add Maintainer name props to product/system.prop:
+```bash
+ro.custom.maintainer=Your Name
+```
+
 ## Submitting Patches
 Patches are always welcome! Feel free to submit your patches via [PixelOS Gerrit](https://review.pixelos.net/).
