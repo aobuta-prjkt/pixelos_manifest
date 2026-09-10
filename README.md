@@ -37,7 +37,7 @@ Start the compilation:
 m pixelos
 ```
 ## Aditional props
-To add maintainer you should add this prop to system.prop or product.prop in your device tree
+To add maintainer name you should add this prop to system.prop or product.prop in your device tree
 
 ```bash
 ro.custom.maintainer=Your Name
