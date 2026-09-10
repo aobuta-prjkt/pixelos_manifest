@@ -8,7 +8,7 @@ familiar with [Git and Repo](https://source.android.com/setup/build/downloading)
 To initialize your local repository, run:
 
 ```bash
-repo init -u https://github.com/PixelOS-AOSP/android_manifest.git -b seventeen --git-lfs
+repo init -u https://github.com/aobuta-prjkt/pixelos_manifest.git -b seventeen --git-lfs --depth=1
 ```
 
 Then, sync the repository:
@@ -35,6 +35,12 @@ Start the compilation:
 
 ```bash
 m pixelos
+```
+## Aditional props
+To add maintainer you should add this prop to system.prop or product.prop in your device tree
+
+```bash
+ro.custom.maintainer=Your Name
 ```
 
 ## Submitting Patches
