@@ -43,5 +43,22 @@ To add maintainer name you should add this prop to system.prop or product.prop i
 ro.custom.maintainer=Your Name
 ```
 
+## Build flags
+Enale perf anim override for MTK device
+```bash
+PERF_ANIM_OVERRIDE := true
+```
+If you want to include Gramophone
+```bash
+TARGET_INCLUDE_GRAMOPHONE := true
+```
+
+## Credits
+1. PixelOS as original source
+2. LineageOS
+3. crDroid android
+4. Shinkai Project
+5. Evolution-X
+
 ## Submitting Patches
 Patches are always welcome! Feel free to submit your patches via [PixelOS Gerrit](https://review.pixelos.net/).
